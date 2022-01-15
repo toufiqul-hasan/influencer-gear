@@ -5,6 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap');
 
 /*-------------------------------------------------------------*/
+                        /* BODY */
+/*-------------------------------------------------------------*/
+
+body {
+  margin: 0 auto;
+}
+
+/*-------------------------------------------------------------*/
                         /* HEADER */
 /*-------------------------------------------------------------*/
 
@@ -26,7 +34,7 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-right: 300px;
+  margin-right: 150px;
 }
 
 nav li {
@@ -36,14 +44,6 @@ nav li {
 nav a {
   text-decoration: none;
   color: #000000;
-}
-
-/*-------------------------------------------------------------*/
-                        /* BODY */
-/*-------------------------------------------------------------*/
-
-body {
-  margin: 0 auto;
 }
 
 /*-------------------------------------------------------------*/
@@ -219,7 +219,6 @@ body {
   display: block;
   text-align: right;
   margin-top: 50px;
-  /* margin-right: 100px; */
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -287,7 +286,7 @@ footer {
 
 footer h2 {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   color: #FFFFFF;
   text-align: center;
@@ -295,7 +294,7 @@ footer h2 {
 
 footer p {
   font-family: 'Manrope', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font: 14px;
   color: #D9DBE1;
   text-align: center;
@@ -380,10 +379,10 @@ footer p {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
+  
   .see-more-button span {
     margin-right: 30px;
   }
